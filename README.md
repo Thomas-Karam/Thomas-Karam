@@ -1,12 +1,11 @@
-- 👋 Hi, I’m @Thomas-Karam
-- 👀 I’m interested in web development 
-- 🌱 I’m currently learning Computer Science
- # Skills
-C </t>
-C++ </br>
-Java </br>
-HTML </t>
-CSS 
+- 👋 Hi, I’m @Thomas Karam
+- 👀 I’m interested in Web Development 
+ # Skills <br>
+C
+C++
+Java
+HTML
+CSS
 
 <!---
 Thomas-Karam/Thomas-Karam is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
