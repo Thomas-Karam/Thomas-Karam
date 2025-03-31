@@ -1,4 +1,4 @@
-## Hi,Dear 👋
+# Hi,Dear 👋
 - I’m Thomas Karam
 - I’m interested in Web Development 👀
 # Skills
