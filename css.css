@@ -1,0 +1,159 @@
+a {
+    margin: 0px 15px;
+    padding: 15px;
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: gray;
+}
+
+
+
+/*start navigation section*/
+nav {
+    top: 0;
+    left: 10px;
+    right: 10px;
+    position: fixed;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: whitesmoke;
+}
+/*end navigation section*/
+
+
+
+/*start Home section*/
+#home {
+    margin: 80px 0;
+}
+/*end Home section*/
+
+
+
+/*start about section*/
+#about {
+    margin: 50px 0;
+    text-align: center;
+}
+/*end about section*/
+
+
+
+/*start skills section*/
+#skills {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#skills div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills div i {
+    margin: 5px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+/*end skills section*/
+
+
+
+/*start projects section*/
+#projects {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#projects div {
+    margin: 5px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+/*end projects section*/
+
+
+
+/*start experience section*/
+#experience {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#experience div {
+    margin: 5px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+/*end experience section*/
+
+
+
+/*start contact section*/
+#contact {
+    margin: 50px 0;
+    overflow: auto;
+}
+
+#contact div {
+    float: left;
+    width: 65%;
+}
+
+#contact div a {
+    color: black;
+}
+
+#contact form {
+    float: right;
+    width: 35%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+/*end contact section*/
+
+
+
+/* Footer */
+footer {
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid black;
+}
+/* Footer */
+
+
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    nav {
+        width: 100%;
+        position: relative;
+        border-radius: 30px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav a {
+        width: auto;
+        padding: 15px;
+        margin: 5px 30px;
+        border-radius: 50px;
+    }
+
+    #contact {
+        overflow: none;
+    }
+}
