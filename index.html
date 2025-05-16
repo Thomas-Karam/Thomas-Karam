@@ -3,33 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <title>Thomas Karam Rady</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Full stack web programmer,working in web development.">
-        <link rel="icon" href="logo.ico">
-        <link rel="stylesheet" href="css.css">
+        <link rel="icon" href="static/Image/Logo.png">
+        <link rel="stylesheet" href="static/CSS/css.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     </head>
 
     <body>
-        <nav>
-            <a href="#home" class="fas fa-home"> Thomas Karam</a>
+        <header id="header">
+            <h3>Thomas Karam Rady</h3> 
+            <button type="button" class="fas fa-bars menu-button" onclick="toggleMenu()"></button>
+        </header>
+        <nav id="menu">
             <a href="#about" class="fas fa-user"> About</a>
+            <a href="#education" class="fas fa-graduation-cap"> Education</a>
             <a href="#skills" class="fas fa-certificate"> Skills</a>
             <a href="#projects" class="fas fa-folder-open"> Projects</a>
             <a href="#experience" class="fas fa-briefcase"> Experience</a>
-            <a href="#contact" class="fas fa-comment-alt"> Contact</a>
         </nav>
 
-        <section id="home">
-            <p>Hi 👋 <br> <span>Thomas Karam Rady Sedrak</span></p>
-            <p>
-                My name is Thomas Karam. I was born in September 2004 in Egypt, Sohag Governorate.
-                I studied at Ahmed Taha Hussein Secondary School and now I am studying Computer Science
-                at the Arab Academy for Science, Technology and Maritime Transport, South Valley Branch.
-            </p>
+        <section id="about">
+            <div>
+                <p>
+                    Hi Dear👋 <br>
+                    <span>Thomas Karam Rady</span><br>
+                    Full stack web developer
+                </p>
+                <button type="button" class="fas fa-download" onclick="downloadCV()"> Download CV</button>
+            </div>
+            <img src="static/Image/Foto.png" alt="Thomas Karam">
         </section>
 
-        <section id="about">
-            <header class="fas fa-user"> About</header>
+        <section id="education">
+            <header class="fas fa-graduation-cap"> Education</header>
+            <p>
+                I graduated from Ahmed Taha Hussein Secondary School and am currently pursuing a degree 
+                in Computer Science at the Arab Academy for Science, Technology and Maritime Transport, 
+                South Valley Branch.
+            </p>
         </section>
 
         <section id="skills">
@@ -38,28 +50,36 @@
                 <i class="fab fa-html5"> HTML</i>
                 <i class="fab fa-css3"> CSS</i>
                 <i class="fab fa-js"> JavaScript</i>
-                <i class="fab fa-php"> PHP</i>
-                <i class="fas fa-database"> MySQL</i>
-                <i class="fab fa-python"> Python</i>
-                <i class="fab fa-java"> Java</i>
-                <i class="fab fa-laravel"> Laravel</i>
-                <i class="fab fa-wordpress"> WordPress</i>
-                <i class="fab fa-react"> React</i>
-                <i class="fab fa-angular"> Angular</i>
-                <i class="fab fa-vuejs"> Vue.js</i>
+                <i class="fab fa-typescript"> TypeScript</i>
                 <i class="fab fa-node"> Node.js</i>
-                <i class="fab fa-docker"> Docker</i>
-                <i class="fab fa-aws"> AWS</i>
-                <i class="fab fa-google"> Google Cloud</i>
-                <i class="fab fa-sass"> Sass</i>
-                <i class="fab fa-less"> Less</i>
-                <i class="fab fa-bootstrap"> Bootstrap</i>
-                <i class="fab fa-tailwind"> Tailwind CSS</i>
+                <i class="fab fa-react"> React</i>
+                <i class="fab fa-java"> Java</i>
+                <i class="fab fa-python"> Python</i>
+                <i class="fas fa-flask"> Flask</i>
+                <i class="fab fa-php"> PHP</i>
+                <i class="fab fa-laravel"> Laravel</i>
+                <i class="fas fa-database"> MySQL</i>
             </div>
         </section>
 
         <section id="projects">
             <header class="fas fa-folder-open"> Projects</header>
+            <div class="project">
+                <div class="project-card">
+                    <img src="static/Image/Project_AI.png" alt="Project AI">
+                    <h2>Best Prices Available</h2>
+                    <p>This project aims to develop a website that automates the process of finding the 
+                        best prices for products across different e-commerce sites</p>
+                    <a href="https://github.com/Thomas-Karam/AI_Project" target="_blank" class="fas fa-link"> Code </a>
+                </div>
+                <div class="project-card">
+                    <img src="static/Image/Project_Login.png" alt="Project Login">
+                    <h2>User Login Functionality</h2>
+                    <p>Develop and integrate login functionality for a full stack application, 
+                        including both frontend and backend components.</p>
+                    <a href="https://github.com/Thomas-Karam/User_Login_Functionality" target="_blank" class="fas fa-link"> Code</a>
+                </div>
+            </div>
         </section>
 
         <section id="experience">
@@ -67,34 +87,30 @@
         </section>
 
         <section id="contact">
-            <header class="fas fa-comment-alt"> Contact</header>
+            <header class="fas fa-comment-alt"> Contact Me</header>
             <div>
-                <a href="tel:+201274157679" class="fas fa-phone" target="_blank" title="+201274157679"></a>
-                <a href="mailto:thomaskaram2004@gmail.com" class="fas fa-envelope" target="_blank"
-                    title="thomaskaram2004@gmail.com"></a>
-                <a href="" class="fab fa-whatsapp" target="_blank" title="Thomas on Whatsapp"></a>
-                <a href="" class="fab fa-telegram" target="_blank" title="Thomas on Telegram"></a>
-
-                <a href="https://www.facebook.com" class="fab fa-facebook" target="_blank" title="Thomas on Facebook"></a>
-                <a href="https://www.instagram.com" class="fab fa-instagram" target="_blank" title="Thomas on Instagram"></a>
-                <a href="https://www.twitter.com" class="fab fa-twitter" target="_blank" title="Thomas on Twitter"></a>
-                <a href="https://www.linkedin.com" class="fab fa-linkedin" target="_blank" title="Thomas on Linkedin"></a>
-                <a href="https://www.github.com" class="fab fa-github" target="_blank" title="Thomas on GitHub"></a>
-                <a href="https://www.youtube.com" class="fab fa-youtube" target="_blank" title="Thomas on YouTube"></a>
+                <a href="https://www.facebook.com/ThomasKaram99" class="fab fa-facebook" target="_blank" title="Thomas on Facebook"></a>
+                <a href="https://www.instagram.com/thomaskaramrady" class="fab fa-instagram" target="_blank" title="Thomas on Instagram"></a>
+                <a href="https://www.twitter.com/ThomasKaram2" class="fab fa-twitter" target="_blank" title="Thomas on Twitter"></a>
+                <a href="https://www.youtube.com/@thomaskaramrady9254" class="fab fa-youtube" target="_blank" title="Thomas on YouTube"></a>
+                <a href="https://www.linkedin.com/in/thomas-karam-rady/" class="fab fa-linkedin" target="_blank" title="Thomas on Linkedin"></a>
+                <a href="https://www.github.com/Thomas-Karam" class="fab fa-github" target="_blank" title="Thomas on GitHub"></a>
+                <a href="http://www.hackerrank.com/profile/thomaskaram2004" class="fab fa-hackerrank" target="_blank" title="Thomas on HackerRank"></a>
+                <a href="https://www.stackoverflow.com/users/28076880/thomas-karam-rady?tab=profile" class="fab fa-stack-overflow" target="_blank" title="Thomas on Stack Overflow"></a>
+                <a href="https://www.medium.com/@thomaskaram2004" class="fab fa-medium" target="_blank" title="Thomas on Medium"></a>
+                <a href="https://www.upwork.com/freelancers/~01bfc22f4dd653fa36?mp_source=share" class="fab fa-upwork" target="_blank" title="Thomas on Upwork"></a>
             </div>
-            <form action="" method="post">
-                <legend>Contact Me</legend>
-                <p>Feel free to contact me for any questions or if you want to work with me.</p>
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="text" name="message" placeholder="Message" required>
-                <button type="submit">Send</button>
-            </form>
         </section>
 
-        <a href="" target="_top" id="feedback">Feedback</a>
+        <button type="button" class="fas fa-comment-dots li" onclick="contact_me()"></button>
+
+        <div id="contact_links">
+            <a href="mailto:thomaskaram2004@gmail.com" class="fas fa-envelope" target="_blank" title="thomaskaram2004@gmail.com"></a>
+            <a href="tel:+201274157679" class="fas fa-phone" target="_blank" title="+201274157679"></a>
+            <a href="https://wa.me/201274157679" class="fab fa-whatsapp" target="_blank" title="Thomas on Whatsapp"></a>
+        </div>
 
         <footer> &copy;2025• TK9.com </footer>
     </body>
-    <script src="JS.js"></script>
+    <script src="static/JavaScript/JS.js"></script>
 </html>
