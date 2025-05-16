@@ -160,6 +160,7 @@ nav a:hover {
 
 .project-card a {
     color: black;
+    margin: 0px 10px;
     text-decoration: none;
 }
 
