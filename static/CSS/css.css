@@ -5,8 +5,14 @@ nav {
     justify-self: center;
     padding: 5px;
     border-radius: 30px;
-    box-shadow: 2px 3px gray;
     background-color: whitesmoke;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeInScale 0.8s ease forwards;
+}
+
+nav:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 nav a {
@@ -18,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-    color: darkgray;
+    background-color: darkgray;
 }
 
 #header {
@@ -159,14 +165,13 @@ nav a:hover {
 }
 
 .project-card a {
-    color: black;
     margin: 0px 10px;
+    color: blue;
     text-decoration: none;
 }
 
 .project-card a:hover {
-    color: darkgray;
-    text-decoration: underline;
+    color: darkblue;
 }
 /*end Projects section*/
 
@@ -236,6 +241,18 @@ footer {
     right: 15px;
     bottom: 65px;
     position: fixed;
+    animation: fadeInScale 0.5s ease forwards;
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 #contact_links a {
@@ -246,6 +263,11 @@ footer {
     font-size: large;
     text-decoration: none;
     background-color: darkgray;
+}
+
+#contact_links a:hover {
+    background-color: whitesmoke;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 /* Footer */
 
@@ -259,11 +281,13 @@ footer {
         left: 5px;
         right: 5px;
         position: fixed;
+        animation: none;
     }
 
     nav a {
         display: block;
-        width: 100%;
+        width: 93%;
+        animation: fadeInScale 0.8s ease forwards;
     }
 
     #header {
@@ -281,6 +305,7 @@ footer {
     #about img {
         float: none;
         margin: 30px auto;
+        animation: fadeInScale 0.8s ease forwards;
     }
 }
 
