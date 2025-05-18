@@ -8,7 +8,7 @@ nav {
     position: sticky;
     justify-self: center;
     padding: 5px;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: whitesmoke;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     animation: fadeInScale 0.8s ease forwards;
@@ -23,7 +23,7 @@ nav a {
     margin: 2px;
     padding: 10px;
     color: black;
-    border-radius: 30px;
+    border-radius: 10px;
     text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ nav a:hover {
     top: 5px;
     position: sticky;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 1px 2px gray;
     background-color: whitesmoke;
 }
@@ -50,7 +50,7 @@ nav a:hover {
     border: none;
     float: right;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: gray;
 }
 /*end Navigation section*/
@@ -81,7 +81,7 @@ nav a:hover {
 #about div button {
     padding: 15px;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: darkgray;
     cursor: pointer;
 }
@@ -208,7 +208,7 @@ nav a:hover {
     margin: 0px 5px;
     padding: 15px;
     color: black;
-    border-radius: 50px;
+    border-radius: 10px;
     text-decoration: none;
 }
 
@@ -235,7 +235,7 @@ footer {
     border: none;
     cursor: pointer;
     font-size: large;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: darkgray;
 }
 
@@ -263,7 +263,7 @@ footer {
     margin: 3px;
     padding: 15px;
     color: black;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: large;
     text-decoration: none;
     background-color: darkgray;
@@ -286,6 +286,7 @@ footer {
         right: 15px;;
         position: fixed;
         animation: none;
+        border-radius: 10px;
     }
 
     nav a {
