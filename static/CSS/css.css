@@ -1,3 +1,7 @@
+body {
+    margin: 5px 15px;
+}
+
 /*start Navigation section*/
 nav {
     top: 5px;
@@ -278,8 +282,8 @@ footer {
     nav {
         display: none;
         top: 65px;
-        left: 5px;
-        right: 5px;
+        left: 15px;
+        right: 15px;;
         position: fixed;
         animation: none;
     }
