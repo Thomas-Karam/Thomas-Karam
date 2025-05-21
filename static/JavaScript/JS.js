@@ -1,7 +1,7 @@
 function toggleMenu() {
       const menu = document.querySelector('nav');
       const button = document.querySelector('.menu_icon');
-      if (menu.style.display === 'none' || menu.style.display === '') {
+      if (menu.style.display === 'none') {
             menu.style.display = 'block';
             button.classList.remove('fa-bars');
             button.classList.add('fa-close');
@@ -16,7 +16,7 @@ function toggleMenu() {
 function contact() {
       const links = document.getElementById('contact');
       const button = document.querySelector('.contact_icon');
-      if (links.style.display === 'none' || links.style.display === '') {
+      if (links.style.display === 'none') {
             links.style.display = 'block';
             button.classList.remove('fa-comment-dots');
             button.classList.add('fa-close');
