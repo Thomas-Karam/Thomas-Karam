@@ -1,6 +1,6 @@
 function toggleMenu() {
       const menu = document.querySelector('nav');
-      const button = document.querySelector('.menu-button');
+      const button = document.querySelector('.menu_icon');
       if (menu.style.display === 'none' || menu.style.display === '') {
             menu.style.display = 'block';
             button.classList.remove('fa-bars');
@@ -13,20 +13,9 @@ function toggleMenu() {
       }
 }
 
-function downloadCV() {
-      const cvUrl = 'static/CV.pdf';
-
-      const link = document.createElement('a');
-      link.href = cvUrl;
-      link.download = 'Thomas Karam.pdf'; 
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-}
-
-function contact_me() {
-      const links = document.getElementById('contact_links');
-      const button = document.querySelector('.li');
+function contact() {
+      const links = document.getElementById('contact');
+      const button = document.querySelector('.contact_icon');
       if (links.style.display === 'none' || links.style.display === '') {
             links.style.display = 'block';
             button.classList.remove('fa-comment-dots');
@@ -37,4 +26,15 @@ function contact_me() {
             button.classList.remove('fa-close');
             button.classList.add('fa-comment-dots');
       }
+}
+
+function downloadCV() {
+      const cvUrl = 'static/CV.pdf';
+
+      const link = document.createElement('a');
+      link.href = cvUrl;
+      link.download = 'Thomas Karam.pdf'; 
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
 }
