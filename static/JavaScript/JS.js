@@ -16,7 +16,7 @@ function toggleMenu() {
 function contact() {
       const links = document.getElementById('contact');
       const button = document.querySelector('.contact_icon');
-      if (links.style.display === 'none'  || links.style.display === '') {
+      if (links.style.display === 'none' || links.style.display === '') {
             links.style.display = 'block';
             button.classList.remove('fa-comment-dots');
             button.classList.add('fa-close');
