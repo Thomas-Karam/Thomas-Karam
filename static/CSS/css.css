@@ -2,6 +2,11 @@ body {
     margin: 5px 15px;
 }
 
+:root {
+    --main-color: gray;
+    --size: larger;
+}
+
 /* Navigation */
 nav {
     top: 5px;
@@ -36,7 +41,7 @@ nav a:hover {
     position: sticky;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px var(--main-color);
     background-color: whitesmoke;
 }
 
@@ -50,7 +55,7 @@ nav a:hover {
     float: right;
     padding: 10px;
     border-radius: 10px;
-    background-color: gray;
+    background-color: var(--main-color);
 }
 
 #header button:hover {
@@ -85,7 +90,7 @@ nav a:hover {
     padding: 15px;
     border: none;
     border-radius: 10px;
-    background-color: gray;
+    background-color: var(--main-color);
     cursor: pointer;
 }
 
@@ -100,7 +105,7 @@ nav a:hover {
     height: 320px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid gray;
+    border: 5px solid var(--main-color);
 }
 /* About */
 
@@ -112,7 +117,8 @@ nav a:hover {
 }
 
 #education header {
-    margin: 10px;
+    margin: 15px;
+    font-size: var(--size);
 }
 /* Education */
 
@@ -125,7 +131,8 @@ nav a:hover {
 }
 
 #skills header {
-    margin: 10px;
+    margin: 15px;
+    font-size: var(--size);
 }
 
 #skills div {
@@ -150,7 +157,8 @@ nav a:hover {
 }
 
 #projects header {
-    margin: 10px;
+    margin: 15px;
+    font-size: var(--size);
 }
 
 .project {
@@ -167,11 +175,11 @@ nav a:hover {
 }
 
 .project-card:hover {
-    box-shadow: 0 0 1px 2px gray;
+    box-shadow: 0 0 1px 2px var(--main-color);
 }
 
 .project-card img {
-    height: 400px;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -189,13 +197,44 @@ nav a:hover {
 
 
 /* Experience */
-#experience {
+#experiences {
     margin: 30px 0;
     text-align: center;
 }
 
-#experience header {
+#experiences header {
     margin: 15px;
+    font-size: var(--size);
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience-card {
+    margin: 5px;
+    width: 320px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.experience-card:hover {
+    box-shadow: 0 0 1px 2px var(--main-color);
+}
+
+.experience-card img {
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    float: inline-start;
+    border-radius: 50%;
+}
+
+.experience-card .info {
+    margin: 5px 10px;
+    float: inline-end;
 }
 /* Experience */
 
@@ -208,7 +247,8 @@ nav a:hover {
 }
 
 #follow header {
-    margin: 10px;
+    margin: 15px;
+    font-size: var(--size);
 }
 
 #follow div a {
@@ -241,7 +281,7 @@ footer {
     cursor: pointer;
     font-size: large;
     border-radius: 10px;
-    background-color: gray;
+    background-color: var(--main-color);
 }
 
 .contact_icon:hover {
@@ -275,7 +315,7 @@ footer {
     border-radius: 10px;
     font-size: large;
     text-decoration: none;
-    background-color: gray;
+    background-color: var(--main-color);
 }
 
 #contact a:hover {
@@ -308,7 +348,7 @@ footer {
     }
 
     #about {
-        margin: 5px auto;
+        margin: 25px auto;
     }
 
     #about div {
@@ -319,6 +359,14 @@ footer {
         float: none;
         margin: 30px auto;
         animation: fadeInScale 0.8s ease forwards;
+    }
+    
+    .experience-card img {
+        float: none;
+    }
+
+    .experience-card .info {
+        float: none;
     }
 }
 

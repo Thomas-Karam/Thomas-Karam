@@ -1,30 +1,42 @@
+const menu = document.querySelector('nav');
+const menu_btn = document.querySelector('.menu_icon');
+const links = document.getElementById('contact');
+const links_btn = document.querySelector('.contact_icon');
+
+window.addEventListener('scroll', function() {
+      if (this.window.innerWidth < 800) {
+            menu.style.display = 'none';
+            menu_btn.classList.remove('fa-close');
+            menu_btn.classList.add('fa-bars');
+      }
+      links.style.display = 'none';
+      links_btn.classList.remove('fa-close');
+      links_btn.classList.add('fa-comment');
+});
+
 function toggleMenu() {
-      const menu = document.querySelector('nav');
-      const button = document.querySelector('.menu_icon');
       if (menu.style.display === 'none' || menu.style.display === '') {
             menu.style.display = 'block';
-            button.classList.remove('fa-bars');
-            button.classList.add('fa-close');
+            menu_btn.classList.remove('fa-bars');
+            menu_btn.classList.add('fa-close');
       }
       else {
             menu.style.display = 'none';
-            button.classList.remove('fa-close');
-            button.classList.add('fa-bars');
+            menu_btn.classList.remove('fa-close');
+            menu_btn.classList.add('fa-bars');
       }
 }
 
 function contact() {
-      const links = document.getElementById('contact');
-      const button = document.querySelector('.contact_icon');
       if (links.style.display === 'none' || links.style.display === '') {
             links.style.display = 'block';
-            button.classList.remove('fa-comment-dots');
-            button.classList.add('fa-close');
+            links_btn.classList.remove('fa-comment');
+            links_btn.classList.add('fa-close');
       }
       else {
             links.style.display = 'none';
-            button.classList.remove('fa-close');
-            button.classList.add('fa-comment-dots');
+            links_btn.classList.remove('fa-close');
+            links_btn.classList.add('fa-comment');
       }
 }
 
