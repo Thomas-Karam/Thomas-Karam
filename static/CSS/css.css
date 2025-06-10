@@ -213,6 +213,7 @@ nav a:hover {
 }
 
 .experience-card {
+    display: inline-block;
     margin: 5px;
     width: 320px;
     padding: 15px;
