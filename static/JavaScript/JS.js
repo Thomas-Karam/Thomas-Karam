@@ -7,7 +7,7 @@ window.addEventListener('scroll', function() {
       if (this.window.innerWidth < 800) {
             menu.style.display = 'none';
             menu_btn.classList.remove('fa-close');
-            menu_btn.classList.add('fa-bars');
+            menu_btn.classList.add('fa-stream');
       }
       links.style.display = 'none';
       links_btn.classList.remove('fa-close');
@@ -17,13 +17,13 @@ window.addEventListener('scroll', function() {
 function toggleMenu() {
       if (menu.style.display === 'none' || menu.style.display === '') {
             menu.style.display = 'block';
-            menu_btn.classList.remove('fa-bars');
+            menu_btn.classList.remove('fa-stream');
             menu_btn.classList.add('fa-close');
       }
       else {
             menu.style.display = 'none';
             menu_btn.classList.remove('fa-close');
-            menu_btn.classList.add('fa-bars');
+            menu_btn.classList.add('fa-stream');
       }
 }
 

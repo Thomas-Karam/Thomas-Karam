@@ -1,9 +1,8 @@
 body {
-    margin: 5px 15px;
+    margin: 5px 150px;
 }
 
 :root {
-    --main-color: gray;
     --size: larger;
 }
 
@@ -13,25 +12,22 @@ nav {
     position: sticky;
     justify-self: center;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 15px 0;
     background-color: whitesmoke;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
     animation: fadeInScale 0.8s ease forwards;
-}
-
-nav:hover {
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 nav a {
     margin: 2px;
     padding: 10px;
     color: black;
-    border-radius: 10px;
+    border-radius: 15px 0;
     text-decoration: none;
 }
 
 nav a:hover {
+    transition: 1s;
     background-color: darkgray;
 }
 
@@ -40,8 +36,8 @@ nav a:hover {
     top: 5px;
     position: sticky;
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px var(--main-color);
+    border-radius: 15px 0;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
     background-color: whitesmoke;
 }
 
@@ -54,11 +50,12 @@ nav a:hover {
     border: none;
     float: right;
     padding: 10px;
-    border-radius: 10px;
-    background-color: var(--main-color);
+    border-radius: 15px 0;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #header button:hover {
+    transition: 1s;
     background-color: darkgray;
 }
 /* Navigation */
@@ -87,14 +84,16 @@ nav a:hover {
 }
 
 #about div button {
-    padding: 15px;
     border: none;
-    border-radius: 10px;
-    background-color: var(--main-color);
+    padding: 15px;
     cursor: pointer;
+    border-radius: 15px 0;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 #about div button:hover {
+    transition: 1s;
     background-color: darkgray;
 }
 
@@ -104,8 +103,8 @@ nav a:hover {
     width: 320px;
     height: 320px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid var(--main-color);
+    border-radius: 30px 0;
+    border: 3px solid rgba(0, 0, 0, 0.3);
 }
 /* About */
 
@@ -143,7 +142,7 @@ nav a:hover {
 #skills div i {
     margin: 5px;
     padding: 18px;
-    border-radius: 10px;
+    border-radius: 15px 0;
     background-color: whitesmoke;
 }
 /* Skills */
@@ -170,17 +169,17 @@ nav a:hover {
     margin: 5px;
     width: 320px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 15px 0;
     background-color: whitesmoke;
 }
 
 .project-card:hover {
-    box-shadow: 0 0 1px 2px var(--main-color);
+    transition: 1s;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .project-card img {
     height: 300px;
-    border-radius: 10px;
 }
 
 .project-card a {
@@ -190,6 +189,7 @@ nav a:hover {
 }
 
 .project-card a:hover {
+    transition: 1s;
     text-decoration: underline;
 }
 /* Projects */
@@ -217,12 +217,13 @@ nav a:hover {
     margin: 5px;
     width: 320px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 15px 0;
     background-color: whitesmoke;
 }
 
 .experience-card:hover {
-    box-shadow: 0 0 1px 2px var(--main-color);
+    transition: 1s;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .experience-card img {
@@ -258,10 +259,10 @@ nav a:hover {
     color: black;
     border-radius: 10px;
     text-decoration: none;
-    transition:  0.2s;
 }
 
 #follow div a:hover {
+    transition:  0.5s;
     transform: scale(1.5);
 }
 /* Follow Me */
@@ -281,18 +282,19 @@ footer {
     border: none;
     cursor: pointer;
     font-size: large;
-    border-radius: 10px;
-    background-color: var(--main-color);
+    border-radius: 15px 0;
+    background-color: gray;
 }
 
 .contact_icon:hover {
+    transition: 1s;
     background-color: darkgray;
 }
 
 #contact {
     display: none;
     width: 50px;
-    right: 15px;
+    right: 10px;
     bottom: 65px;
     position: fixed;
     animation: fadeInScale 0.5s ease forwards;
@@ -310,16 +312,17 @@ footer {
 }
 
 #contact a {
-    margin: 3px;
+    margin: 3px 0;
     padding: 15px;
     color: black;
-    border-radius: 10px;
+    border-radius: 15px 0;
     font-size: large;
     text-decoration: none;
-    background-color: var(--main-color);
+    background-color: gray;
 }
 
 #contact a:hover {
+    transition: 1s;
     background-color: darkgray;
 }
 /* Footer */
@@ -328,6 +331,10 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 700px) {
+    body {
+        margin: 5px 15px;
+    }
+    
     nav {
         display: none;
         top: 65px;
@@ -335,7 +342,7 @@ footer {
         right: 15px;;
         position: fixed;
         animation: none;
-        border-radius: 10px;
+        border-radius: 15px 0;
     }
 
     nav a {
@@ -349,7 +356,7 @@ footer {
     }
 
     #about {
-        margin: 25px auto;
+        margin: 10px auto;
     }
 
     #about div {
