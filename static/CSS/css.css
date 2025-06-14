@@ -2,10 +2,6 @@ body {
     margin: 5px 150px;
 }
 
-:root {
-    --size: larger;
-}
-
 /* Navigation */
 nav {
     top: 5px;
@@ -31,7 +27,7 @@ nav a:hover {
     background-color: darkgray;
 }
 
-#header {
+header {
     display: none;
     top: 5px;
     position: sticky;
@@ -41,12 +37,12 @@ nav a:hover {
     background-color: whitesmoke;
 }
 
-#header h3 {
+header h3 {
     margin: 5px;
     display: inline-block;
 }
 
-#header button {
+header button {
     border: none;
     float: right;
     padding: 10px;
@@ -54,7 +50,7 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-#header button:hover {
+header button:hover {
     transition: 1s;
     background-color: darkgray;
 }
@@ -70,7 +66,6 @@ nav a:hover {
 
 #about div {
     float: left;
-    width: 50%;
 }
 
 #about div p {
@@ -114,11 +109,6 @@ nav a:hover {
     margin: 30px 0;
     text-align: center;
 }
-
-#education header {
-    margin: 15px;
-    font-size: var(--size);
-}
 /* Education */
 
 
@@ -127,11 +117,6 @@ nav a:hover {
 #skills {
     margin: 30px 0;
     text-align: center;
-}
-
-#skills header {
-    margin: 15px;
-    font-size: var(--size);
 }
 
 #skills div {
@@ -153,11 +138,6 @@ nav a:hover {
 #projects {
     margin: 30px 0;
     text-align: center;
-}
-
-#projects header {
-    margin: 15px;
-    font-size: var(--size);
 }
 
 .project {
@@ -202,11 +182,6 @@ nav a:hover {
     text-align: center;
 }
 
-#experiences header {
-    margin: 15px;
-    font-size: var(--size);
-}
-
 .experience {
     display: flex;
     flex-wrap: wrap;
@@ -246,11 +221,6 @@ nav a:hover {
 #follow {
     margin: 30px 0;
     text-align: center;
-}
-
-#follow header {
-    margin: 15px;
-    font-size: var(--size);
 }
 
 #follow div a {
@@ -300,17 +270,6 @@ footer {
     animation: fadeInScale 0.5s ease forwards;
 }
 
-@keyframes fadeInScale {
-    0% {
-        opacity: 0;
-        transform: scale(0);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
 #contact a {
     margin: 3px 0;
     padding: 15px;
@@ -324,6 +283,17 @@ footer {
 #contact a:hover {
     transition: 1s;
     background-color: darkgray;
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 /* Footer */
 
@@ -351,12 +321,12 @@ footer {
         animation: fadeInScale 0.8s ease forwards;
     }
 
-    #header {
+    header {
         display: block;
     }
 
     #about {
-        margin: 10px auto;
+        margin: 30px auto;
     }
 
     #about div {
@@ -365,8 +335,7 @@ footer {
 
     #about img {
         float: none;
-        margin: 30px auto;
-        animation: fadeInScale 0.8s ease forwards;
+        margin: 40px auto;
     }
     
     .experience-card img {
