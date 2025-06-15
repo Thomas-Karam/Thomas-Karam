@@ -1,10 +1,10 @@
-# Hi,Dear 👋
+# Hi, Dear 👋
 - Welcome to the world of web development 👀
 # About Me
-- I am study Computer and information technology at AASTMT.
+- I am studying Computer and Information Technology at AASTMT.
 # Skills
 - Programming languages: C, C++, Java, Python, HTML, CSS, JavaScript, PHP. 
-- Frameworks: Node.JS, SASS, React, Flask.
+- Frameworks: Node.js, SASS, React, Flask.
 - Other tools: Git& GitHub, Ubuntu.
 # Projects
 - QR Generator.
