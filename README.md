@@ -1,13 +1,12 @@
 # Hi,Dear 👋
-- I’m Thomas Karam
-- I’m interested in Web Development 👀
+- Welcome to the world of web development 👀
+# About Me
+- I am study Computer and information technology at AASTMT.
 # Skills
- <ul>
-  <li>C</li>
-  <li>C++</li>
-  <li>Java</li>
-  <li>Python</li>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
- </ul>
+- Programming languages: C, C++, Java, Python, HTML, CSS, JavaScript, PHP. 
+- Frameworks: Node.JS, SASS, React, Flask.
+- Other tools: Git& GitHub, Ubuntu.
+# Projects
+- QR Generator.
+- Best Prices Available.
+- User Login Functionality.
