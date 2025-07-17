@@ -2,6 +2,7 @@
 - Welcome to the world of web development 👀
 # About Me
 - I am a student majoring in Computing and Information Technology at the AASTMT, Department of CS.
+- I have previous experience in Web Development through my undergraduate studies, and I am constantly working to develop my skills.
 # Skills
 - Programming languages: C, C++, Java, Python, PHP, HTML, CSS, JavaScript, SQL.
 - Frameworks: Node.js, SASS, React, Flask.
