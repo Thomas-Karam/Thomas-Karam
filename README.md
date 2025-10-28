@@ -1,11 +1,11 @@
 # Hi, Dear 👋
-- Welcome to the world of web development 👀
+- Welcome to the world of Software Engineering 👀
 # About Me
-- I am a student majoring in Computing and Information Technology at the AASTMT, Department of CS.
-- I have previous experience in Web Development through my undergraduate studies, and I am constantly working to develop my skills.
+- I am a Computing and Information Technology student at the AASTMT, Department of CS.
+- I have previous experience in software engineering from my undergraduate studies, and I am constantly working to develop my skills.
 # Skills
-- Programming languages: C, C++, Java, Python, PHP, HTML, CSS, JavaScript.
-- Frameworks: SASS, React, Flask.
+- Programming languages: C, C++, HTML, CSS, JavaScript, Python, Dart.
+- Frameworks: SASS, Angular, Node, Express, Flask, Flutter.
 - Other tools are MongoDB, Git& GitHub, Bash, and Ubuntu.
 # Projects
 - QR Generator. <a href="https://github.com/Thomas-Karam/QR_Generator">??</a>
