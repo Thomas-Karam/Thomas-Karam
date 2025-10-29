@@ -122,13 +122,29 @@ header button:hover {
 #skills div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills div div {
+    display: inline-block;
+    margin: 5px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px 0;
+    background-color: whitesmoke;
 }
 
 #skills div i {
+    display: block;
     margin: 5px;
     padding: 18px;
     border-radius: 15px 0;
-    background-color: whitesmoke;
+    background-color: white;
+}
+
+#skills div i:hover {
+    transition: 1s;
+    background-color: darkgray;
 }
 /* Skills */
 
@@ -143,11 +159,13 @@ header button:hover {
 .project {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-card {
+    display: inline-block;
     margin: 5px;
-    width: 320px;
+    width: 350px;
     padding: 15px;
     border-radius: 15px 0;
     background-color: whitesmoke;
@@ -185,12 +203,13 @@ header button:hover {
 .experience {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .experience-card {
     display: inline-block;
     margin: 5px;
-    width: 320px;
+    width: 350px;
     padding: 15px;
     border-radius: 15px 0;
     background-color: whitesmoke;

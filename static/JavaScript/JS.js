@@ -50,3 +50,34 @@ function downloadCV() {
       link.click();
       document.body.removeChild(link);
 }
+
+const type = document.getElementById('type');
+
+const phrases = ['MEAN Stack Developer', 'Flutter Developer'];
+let currentPhraseIndex = 0;
+let currentCharIndex = 0;
+let isDeleting = false;
+
+function typeEffect() {
+      const currentPhrase = phrases[currentPhraseIndex];
+
+      if (isDeleting) {
+            currentCharIndex--;
+            type.textContent = currentPhrase.substring(0, currentCharIndex);
+            if (currentCharIndex === 0) {
+                  isDeleting = false;
+                  currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+            }
+      } else {
+            currentCharIndex++;
+            type.textContent = currentPhrase.substring(0, currentCharIndex);
+            if (currentCharIndex === currentPhrase.length) {
+                  isDeleting = true;
+            }
+      }
+
+      const delay = isDeleting ? 100 : 200;
+      setTimeout(typeEffect, delay);
+}
+
+typeEffect();
