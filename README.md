@@ -5,9 +5,9 @@
 - I have previous experience in software engineering from my undergraduate studies, and I am constantly working to develop my skills.
 # Skills
 - Programming languages: C, C++, HTML, CSS, JavaScript, Python, Dart.
-- Frameworks: SASS, Angular, Node, Express, Flask, Flutter.
-- Other tools are MongoDB, Git& GitHub, Bash, and Ubuntu.
+- Frameworks: Angular, Express, Flask, Flutter.
+- Other tools are Node, MongoDB, Git, GitHub, Bash, and Ubuntu.
 # Projects
-- QR Generator. <a href="https://github.com/Thomas-Karam/QR_Generator">??</a>
-- Best Prices Available. <a href="https://github.com/Thomas-Karam/Best_Prices_Available">??</a>
-- User Login Functionality. <a href="https://github.com/Thomas-Karam/User_Login_Functionality">??</a>
+- QR Generator [???](https://github.com/Thomas-Karam/QR_Generator)
+- Best Prices Available [???](https://github.com/Thomas-Karam/Best_Prices_Available)
+- User Login Functionality [???](https://github.com/Thomas-Karam/User_Login_Functionality)
