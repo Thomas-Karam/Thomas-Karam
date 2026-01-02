@@ -50,3 +50,14 @@ function downloadCV() {
       link.click();
       document.body.removeChild(link);
 }
+
+function downloadAPK() {
+      const apkUrl = 'static/To Do.apk';
+
+      const link = document.createElement('a');
+      link.href = apkUrl;
+      link.download = 'To Do.apk'; 
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+}
