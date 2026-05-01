@@ -60,7 +60,7 @@ header button:hover {
 
 /* About */
 #about {
-    margin: 50px auto;
+    margin: 8%;
     overflow: auto;
 }
 
@@ -69,7 +69,7 @@ header button:hover {
 }
 
 #about div p {
-    margin: 5x;
+    margin: 5px;
     padding: 10px;
     font-size: x-large;
 }
@@ -194,6 +194,51 @@ header button:hover {
 
 
 
+/* Certificates */
+#certificates {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.certificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certificate-card {
+    display: inline-block;
+    margin: 5px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px 0;
+    background-color: whitesmoke;
+}
+
+.certificate-card:hover {
+    transition: 1s;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.certificate-card img {
+    height: 300px;
+    width: 280px;
+}
+
+.certificate-card a {
+    color: black;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.certificate-card a:hover {
+    transition: 1s;
+    text-decoration: underline;
+}
+/* Certificates */
+
+
+
 /* Experience */
 #experiences {
     margin: 30px 0;
@@ -246,6 +291,7 @@ header button:hover {
     margin: 0px 5px;
     padding: 15px;
     color: black;
+    font-size: large;
     border-radius: 10px;
     text-decoration: none;
 }
