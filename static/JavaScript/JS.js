@@ -40,23 +40,10 @@ function contact() {
       }
 }
 
-function downloadCV() {
-      const cvUrl = 'static/CV.pdf';
-
-      const link = document.createElement('a');
-      link.href = cvUrl;
-      link.download = 'Thomas Karam.pdf'; 
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-}
-
-function downloadAPK() {
-      const apkUrl = 'static/To Do.apk';
-
-      const link = document.createElement('a');
-      link.href = apkUrl;
-      link.download = 'To Do.apk'; 
+function downloadFile(file) {
+      link = document.createElement('a');
+      link.href = 'static/' + file;
+      link.download = file; 
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
