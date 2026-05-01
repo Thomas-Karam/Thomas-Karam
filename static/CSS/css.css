@@ -65,6 +65,7 @@ header button:hover {
 }
 
 #about div {
+    margin: 3px;
     float: left;
 }
 
