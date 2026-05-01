@@ -69,8 +69,7 @@ header button:hover {
 }
 
 #about div p {
-    margin: 24px 5px;
-    padding: 10px;
+    margin: 5px;
     font-size: x-large;
 }
 
@@ -80,7 +79,8 @@ header button:hover {
 
 #about div button {
     border: none;
-    padding: 15px;
+    padding: 16px;
+    margin: 16px 8px;
     cursor: pointer;
     border-radius: 15px 0;
     background-color: whitesmoke;
@@ -391,7 +391,7 @@ footer {
     }
 
     #about {
-        margin: 10px auto;
+        margin: 32px 0;
     }
 
     #about div {
