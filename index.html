@@ -23,7 +23,7 @@
             <a href="#skills" class="fas fa-lightbulb"> Skills</a>
             <a href="#projects" class="fas fa-folder-open"> Projects</a>
             <a href="#experiences" class="fas fa-briefcase"> Experiences</a>
-            <!-- <a href="" class="fas fa-blog"> Blog</a> -->
+            <a href="#certificates" class="fas fa-blog"> Certificates</a>
             <a href="#follow" class="fas fa-users"> Follow Me</a>
         </nav>
 
@@ -32,9 +32,9 @@
                 <p>
                     Hi Dear👋 <br>I'm
                     <span>Thomas Karam Rady</span><br>
-                    Software Engineer | Mobile App - Flutter
+                    Software Engineer | Flutter Developer
                 </p>
-                <button type="button" class="fas fa-download" onclick="downloadCV()"> Download CV</button>
+                <button type="button" class="fas fa-download" onclick="downloadFile('CV.pdf')"> Download CV</button>
             </div>
             <img src="static/Image/Foto.png" alt="Thomas Karam">
         </section>
@@ -42,7 +42,7 @@
         <section id="education">
             <h1 class="fas fa-graduation-cap"> Education</h1>
             <p>
-                I am a Computing and Information Technology student at the AASTMT, Department of CS.
+                I am a Computing and Information Technology student at the AASTMT, Department of Computer Science.
             </p>
         </section>
 
@@ -51,25 +51,22 @@
             <div>
                 <div>
                     <h2 class="fas fa-code"> Programming Languages</h2>
-                    <i class="fab fa-html5"> HTML</i>
-                    <i class="fab fa-css3"> CSS</i>
-                    <i class="fab fa-js"> JavaScript</i>
+                    <i class="fab fa-sql"> SQL</i>
                     <i class="fab fa-python"> Python</i>
+                    <i class="fab fa-elixir"> Elixir</i>
                     <i class="fab fa-dart"> Dart</i>
                 </div>
                 <div>
                     <h2 class="fas fa-tools"> Frameworks & Libraries</h2>
-                    <i class="fab fa-node"> Node.js</i>
-                    <i class="fab fa-sass"> SASS</i>
-                    <i class="fab fa-express"> Express.js</i>
+                    <i class="fab fa-postgres"> Postgres</i>
                     <i class="fas fa-flask"> Flask</i>
+                    <i class="fab fa-Phoenix"> Phoenix</i>
                     <i class="fas fa-flutter"> Flutter</i>
                 </div>
                 <div>
                     <h2 class="fas fa-computer"> Tools & Technologies</h2>
-                    <i class="fas fa-leaf"> MongoDB</i>
-                    <i class="fab fa-git"> Git</i>
-                    <i class="fab fa-github"> GitHub</i>
+                    <i class="fab fa-figma"> Figma</i>
+                    <i class="fab fa-github"> Git & GitHub</i>
                     <i class="fab fa-docker"> Docker</i>
                     <i class="fab fa-ubuntu"> Ubuntu</i>
                 </div>
@@ -80,14 +77,6 @@
             <h1 class="fas fa-folder-open"> Projects</h1>
             <div class="project">
                 <div class="project-card">
-                    <img src="static/Image/Project_AI.png" alt="Project AI">
-                    <h2>Best Prices Available</h2>
-                    <p>This project aims to develop a website that automates the process of finding the 
-                        best prices for products across different e-commerce sites</p>
-                    <a href="https://github.com/Thomas-Karam/AI_Project" target="_blank" class="fas fa-link"> Code </a>
-                    <a href="https://drive.google.com/file/d/1_Dd0daQ0iBe8ewPm4fDl-MUrnU9MTPLf/view?usp=sharing" target="_blank" class="fas fa-eye"> Video Demo</a>
-                </div>
-                <div class="project-card">
                     <img src="static/Image/Project_QR.png" alt="Project QR Code">
                     <h2>QR Generator</h2>
                     <p>QR code generation is developed by providing us with the link you want</p>
@@ -95,11 +84,30 @@
                     <a href="https://thomas-karam.github.io/QR_Generator/" target="_blank" class="fas fa-eye">  Web Link</a>
                 </div>
                 <div class="project-card">
-                    <img src="static/Image/To_Do.png" alt="Project Login">
+                    <img src="static/Image/Project_To_Do.png" alt="Project To Do">
                     <h2>To Do List</h2>
-                    <p>Built with a privacy-first approach, this app stores all your data locally on your device, ensuring your tasks remain secure and under your total control</p>
-                    <a href="https://github.com/Thomas-Karam/To_Do" target="_blank" class="fas fa-link"> Code</a>
-                    <a onclick="downloadAPK()" target="_blank" class="fas fa-download"> APK File</a>
+                    <p>Built with a privacy-first approach, this app stores all your data locally on your device, ensuring your tasks remain secure and under your total control.</p>
+                    <a href="https://github.com/Thomas-Karam/To_Do" target="_blank" class="fas fa-link"> Code </a>
+                    <a onclick="downloadFile('To Do.apk')" target="_blank" class="fas fa-download"> APK File</a>
+                </div>
+                <div class="project-card">
+                    <img src="static/Image/Project_News.png" alt="Project News">
+                    <h2>News App</h2>
+                    <p>A Flutter-based mobile application that fetches real-time news data from an external API and displays it in a clean, user-friendly interface.</p>
+                    <a href="https://github.com/Thomas-Karam/News_App" target="_blank" class="fas fa-link"> Code</a>
+                    <a onclick="downloadFile('News.apk')" target="_blank" class="fas fa-download"> APK File</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h1 class="fas fa-blog"> Certificates</h1>
+            <div class="certificate">
+                <div class="certificate-card">
+                    <img src="static/Image/Certificate_AI.png" alt="Certificate AI">
+                    <h2>Artificial Intelligence</h2>
+                    <p>NTI - National Telecommunication Institute</p>
+                    <a href="https://doc-04-40-apps-viewer.googleusercontent.com/viewer/secure/pdf/9csqulbqfuk05e42j92grendcbp09hll/hit20h40c5j9h8r7kft006luei63hgpl/1777624575000/gmail/07932238893513943913/ACFrOgCF-bm2FVnOsmsTMsP4pUCxpd1X4ecyulyJC0add-Wu2yZ6vSfZlw6tK8wlV1KKbyJJNPzehjljcCPxi8OukvvyPnVxE9dWk8YDxqRRMEWls4Jr2NjjxQgY9gacpeeIdFtTWlBNUdzD4_an45MCfo2RK9ddW1s4y8iDEQ==?print=true&nonce=oek41j7sdan7c&user=07932238893513943913&hash=npst6l3jl7p1o9glg2f0f9qposmuuj4j" target="_blank" class="fas fa-link"> View Certificate</a>
                 </div>
             </div>
         </section>
